@@ -1,3 +1,4 @@
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:600" rel="stylesheet">
 <style>
   div.circle {
     border: 6px solid pink;
@@ -6,36 +7,64 @@
     width: 100px; height: 100px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    background-image:url(https://openclipart.org/image/800px/svg_to_png/174153/1357741270.png);
   }
-  p {
+  span.CircleText {
   	font-family: Century Gothic;
     font-size: 150%;
     font-weight: bold;
     color: white;
     text-shadow: 3px 2px grey;
+    
+  }
+  span.MoreInfo {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 120%;
+    color: #F1948A;
   }
     .hidden {display:none}
 	.circle:hover
 	.hidden {display:block}
 </style>
 
-<div class="circle">
-    <div class="inside">
-        <p> Yo.</p>
-    </div>
-    <div class="hidden">
-        <p>What's up</p>
-    </div>
-</div>
-
-
-<!--
+<center>
 <table>
 <tr>
-<td><div class=circle></div></td>
-<td><div class=circle></div></td>
-<td><div class=circle></div></td>
-<td><div class=circle></div></td>
+<td><div class="circle">
+    <div class="inside">
+        <span class="CircleText"> <br /> &nbsp &nbsp fire</span>
+    </div>
+    <br /><br />
+    <div class="hidden">
+        <span class="MoreInfo">The sea turtle population has halved within the past 30 years due to plastic in oceans.</span>
+    </div>
+</div></td>
+<td><div class="circle">
+    <div class="inside">
+        <span class="CircleText">  <br />&nbsp polar bears</span>
+    </div>
+    <br /><br />
+    <div class="hidden">
+        <span class="MoreInfo">The sea turtle population has halved within the past 30 years due to plastic in oceans.</span>
+    </div>
+</div></td>
+<td><div class="circle">
+    <div class="inside">
+        <span class="CircleText"> <br />&nbsp turtle</span>
+    </div>
+    <br /><br />
+    <div class="hidden">
+        <span class="MoreInfo">The sea turtle population has halved within the past 30 years due to plastic in oceans.</span>
+    </div>
+</div></td>
+<td><div class="circle">
+    <div class="inside">
+        <span class="CircleText"> <br />&nbsp ice bergs</span>
+    </div>
+    <br /><br />
+    <div class="hidden">
+        <span class="MoreInfo">The sea turtle population has halved within the past 30 years due to plastic in oceans.</span>
+    </div>
+</div></td>
 </tr>
-</table> -->
+</table>
+</center>
