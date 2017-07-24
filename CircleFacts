@@ -1,0 +1,41 @@
+<style>
+  div.circle {
+    border: 6px solid pink;
+    background: pink;
+    border-radius: 50%;
+    width: 100px; height: 100px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-image:url(https://openclipart.org/image/800px/svg_to_png/174153/1357741270.png);
+  }
+  p {
+  	font-family: Century Gothic;
+    font-size: 150%;
+    font-weight: bold;
+    color: white;
+    text-shadow: 3px 2px grey;
+  }
+    .hidden {display:none}
+	.circle:hover
+	.hidden {display:block}
+</style>
+
+<div class="circle">
+    <div class="inside">
+        <p> Yo.</p>
+    </div>
+    <div class="hidden">
+        <p>What's up</p>
+    </div>
+</div>
+
+
+<!--
+<table>
+<tr>
+<td><div class=circle></div></td>
+<td><div class=circle></div></td>
+<td><div class=circle></div></td>
+<td><div class=circle></div></td>
+</tr>
+</table> -->
