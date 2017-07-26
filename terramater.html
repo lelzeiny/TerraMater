@@ -14,14 +14,12 @@ h1 {
 }
 mark { 
     background-color: #ffffb3;
-    color: black;
-}
-/*   
+	color: black; }
   div.circle {
     border: 6px solid pink;
     background: pink;
     border-radius: 50%;
-    width: 100px; height: 100px;
+    width: 130px; height: 130px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
@@ -41,10 +39,10 @@ mark {
     .hidden {display:none}
 	.circle:hover
 	.hidden {display:block}
-*/
 </style>
 </head>
 <body>
+
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-wide w3-padding w3-card-2">
@@ -58,6 +56,7 @@ mark {
     </div>
   </div>
 </div>
+
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
   <img class="mySlides" src="http://az616578.vo.msecnd.net/files/2016/09/09/6360906203007302331893227937_factory-future.jpg" alt="Architecture" width="1500" height="800">
@@ -75,12 +74,16 @@ mark {
   <img class="mySlides" src="https://ecochiccayman.files.wordpress.com/2015/07/seal.jpg" alt="Architecture" width="1500" height="800">
   <img class="mySlides" src="http://pixdaus.com/files/items/pics/3/59/278359_ce4cfa06cd944bce4d2966ac3ff79b4e_large.jpg" alt="Architecture" width="1500" height="800">
   <img class="mySlides" src="http://pixdaus.com/files/items/pics/3/59/278359_ce4cfa06cd944bce4d2966ac3ff79b4e_large.jpg" alt="Architecture" width="1500" height="800">
+
+
   <div class="w3-display-middle w3-margin-top w3-center">
     <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>TM</b></span> <span class="w3-hide-small w3-text-light-grey">TERRA MATER</span></h1>
   </div>
 </header>
+
 <!-- Page content -->
 <div class="w3-content w3-padding" style="max-width:1564px">
+
 <script>
 var myIndex = 0;
 carousel();
@@ -101,12 +104,15 @@ function carousel() {
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
    <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/169460591/?autostart=true" frameborder="0" allowfullscreen></iframe>
    <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/169162751/?autostart=true" frameborder="0" allowfullscreen></iframe>
+
   </div>
   
+
   <!-- About Section -->
   <div class="w3-container w3-padding-32" id="about">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About Us</h3>
   </div>
+
   <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom w3-center">
       <img src="LeenaProfile (2).jpeg" alt="Leena" style="width:70%" class="w3-circle">
@@ -133,6 +139,7 @@ function carousel() {
       <p>She is a 15 year old who is a rising junior in the 2017-18 school year. She loves reading books and she's been dancing since she was six years old. She also enjoys volunteering and cares about addressing climate change and making a difference in her community.</p>
     </div>
   </div>
+
   <!-- Why We Care Section -->
   <div class="w3-container w3-padding-32" id="whywecare">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Why We Care</h3>
@@ -146,26 +153,78 @@ function carousel() {
   </div>
   
  <!-- Issues Section -->
-<p style="font-family:courier;">This is a paragraph.</p>
   <div class="w3-container w3-padding-32" id="issues">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Environmental Issues</h3>
-<center>
+	
+<center>	  
 <table>
 <tr>
-<td> <p style="font-family:'Josefin Sans', sans-serif;"><bold>turtle. </ bold><br /> In the past 30 years, the sea turtle population has halved because of plastic consumption</p></td>
-<td> <p style="font-family:'Josefin Sans', sans-serif;">fish. <br /> If we continue to litter at this rate, by 2050 the weight of the plastic in the ocean will outweigh the fish</p></td>
-<td> <p style="font-family:'Josefin Sans', sans-serif;">bear. <br /> There is only about 25,000 polar bears left because their prey have evacuated because of pollution.</p></td>
-<td> <p style="font-family:'Josefin Sans', sans-serif;">water. <br /> The world's global sea line has risen by 8 inches.</p></td>
+<td><div class="circle">
+    <div class="inside">
+        <span class="CircleText"> <br /> &nbsp turtle</span>
+    </div>
+    <br /><br />
+    <div class="hidden">
+        <span class="MoreInfo">The sea turtle population has halved within the past 30 years due to plastic in oceans.</span>
+    </div>
+</div></td>
+<td><div class="circle">
+    <div class="inside">
+        <span class="CircleText">  <br />&nbsp &nbsp fish</span>
+    </div>
+    <br /><br />
+    <div class="hidden">
+        <span class="MoreInfo">If we continue to litter at this rate, by 2050 the weight of the plastic in the ocean will outweigh the fish.</span>
+    </div>
+</div></td>
+<td><div class="circle">
+    <div class="inside">
+        <span class="CircleText"> <br />&nbsp bear</span>
+    </div>
+    <br /><br />
+    <div class="hidden">
+        <span class="MoreInfo">There is only about 25,000 polar bears left because most of their prey have evacuated the pollution.</span>
+    </div>
+</div></td>
+<td><div class="circle">
+    <div class="inside">
+        <span class="CircleText"> <br />&nbsp water</span>
+    </div>
+    <br /><br />
+    <div class="hidden">
+        <span class="MoreInfo"> The world's global sea line has risen by 8 inches.</span>
+    </div>
+</div></td>
+<td><div class="circle">
+    <div class="inside">
+        <span class="CircleText"> <br />&nbsp pika</span>
+    </div>
+    <br /><br />
+    <div class="hidden">
+        <span class="MoreInfo"> This small mammal climbs to higher altitudes to find tolerable weather. Soon it will run out of places to go.</span>
+    </div>
+</div></td>
+	<td><div class="circle">
+    <div class="inside">
+        <span class="CircleText"> <br />&nbsp praire</span>
+    </div>
+    <br /><br />
+    <div class="hidden">
+        <span class="MoreInfo"> The prairies has already lost up to 70 percent of its waterfowl potholes, where many other animals also breed.</span>
+    </div>
+</div></td>
 </tr>
 </table>
-</center>
+ </center>
     
   </div>
   
 <!-- End page content -->
 </div>
+
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-5">
 </footer>
+
 </body>
 </html>
