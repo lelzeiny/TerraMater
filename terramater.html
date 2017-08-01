@@ -10,7 +10,7 @@
 .mySlides {display: none;}
   
 h1 {
-    text-shadow: 2px 2px #99ccff;
+    text-shadow: 2px 2px grey;
 }
 mark { 
     background-color: #ffffb3;
@@ -48,6 +48,14 @@ button {
   padding: 5px 10px 5px 10px;
 }
 </style>
+	
+<script>	
+	function checkRecycle() {
+		if (pw == 1){
+			console.log ("WORKS!");
+		}
+	}
+</ script>
 </head>
 <body>
 
@@ -239,17 +247,11 @@ function carousel() {
   
 <!-- End page content -->
 	
-		<script>
-		
-function checkRecycle() {
-	//DO SOMETHIN, if this, then thus
-}
-		</ script>
 	<div>
-	<input id="pw"/>
-        <button id="btnSubmit" onclick="checkRecycle()">Check this product</button>
-        <p id="results"></p>
-</div>
+		<input id="pw"/>
+        	<button id="btnSubmit" onclick="checkRecycle()">Check this product</button>
+        	<p id="results"></p>
+	</div>
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-5">
