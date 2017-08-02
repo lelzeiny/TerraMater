@@ -35,7 +35,6 @@ mark {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 120%;
     color: #58FA82;
-    padding:5px 100px;
   }
     .hidden {display:none}
 	.circle:hover
@@ -93,26 +92,7 @@ button {
 <!-- Page content -->
 <div class="w3-content w3-padding" style="max-width:1564px">
 
-<script>
-var myIndex = 0;
-carousel();
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 2000); // Change image every 2 seconds
-}
-function checkRecycle() {
-	if (pw == 1){
-		console.log ("WORKS!");
-	}
-}
-</script>
+
   <!-- Project Section -->
   <div class="w3-container w3-padding-32" id="projects">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
@@ -255,6 +235,25 @@ function checkRecycle() {
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-5">
 </footer>
-
+<script>
+var myIndex = 0;
+carousel();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+function checkRecycle() {
+	if (pw == 1){
+		console.log ("WORKS!");
+	}
+}
+</script>
 </body>
 </html>
