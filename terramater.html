@@ -250,9 +250,18 @@ function carousel() {
     setTimeout(carousel, 2000); // Change image every 2 seconds
 }
 function checkRecycle() {
-	//var theSign = document.getElementById("pw").value();
+	var theSign = document.getElementById("pw").value;
 	console.log(pw);
-	if (pw == "one" || pw == "1"){
+	if (theSign == "one" || theSign == "1"){
+		console.log ("WORKS!");
+	}
+	if (theSign == "two" || theSign == "2"){
+		console.log ("WORKS!");
+	}
+	if (theSign == "three" || theSign == "3"){
+		console.log ("WORKS!");
+	}
+	if (theSign == "four" || theSign == "4"){
 		console.log ("WORKS!");
 	}
 	else {
